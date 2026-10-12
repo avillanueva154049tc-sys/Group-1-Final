@@ -8,11 +8,11 @@ class StudentGradeCalculator {
         System.out.print("Name: ");
         String name = input.nextLine();
 
-        System.out.print("Mathematics subject grade: ");
+        System.out.print("Mathematics grade: ");
         double grade1 = input.nextDouble();
-        System.out.print("Environmental Science subject grade: ");
+        System.out.print("Environmental Science grade: ");
         double grade2 = input.nextDouble();
-        System.out.print("Purpose Communications subject grade: ");
+        System.out.print("Purposive Communication grade: ");
         double grade3 = input.nextDouble();
         
         double average = (grade1 + grade2 + grade3) / 3;
