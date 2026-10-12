@@ -8,11 +8,11 @@ class StudentGradeCalculator {
         System.out.print("Name: ");
         String name = input.nextLine();
 
-        System.out.print("Math subject grade: ");
+        System.out.print("Mathematics subject grade: ");
         double grade1 = input.nextDouble();
-        System.out.print("Science subject grade: ");
+        System.out.print("Environmental Science subject grade: ");
         double grade2 = input.nextDouble();
-        System.out.print("English subject grade: ");
+        System.out.print("Purpose Communications subject grade: ");
         double grade3 = input.nextDouble();
         
         double average = (grade1 + grade2 + grade3) / 3;
@@ -24,6 +24,7 @@ class StudentGradeCalculator {
         System.out.println("Science subject grade: " + grade2);
         System.out.println("English subject grade: " + grade3);
         System.out.println("Overall average grade: " + average);
+        
         if (average >= 75) {
             System.out.println("Remarks: Passed");
         } else {
